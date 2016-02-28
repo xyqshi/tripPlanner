@@ -21,7 +21,7 @@ public class tripService {
    public TripModel getTripById(@PathParam("tripId") String tripId){
        TripModel trip = new TripModel();
        trip.setTripDescription("This is a trip returned by specified tripId");
-       trip.setTripId(111);
+       trip.setTripId(222);
        System.out.println("HAHHHHHHHHHHHHHHHHHHH");
        return trip;
    }
